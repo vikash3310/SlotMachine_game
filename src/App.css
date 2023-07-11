@@ -1,0 +1,32 @@
+nav{
+  display: flex;
+  width: 100%;;
+  /* background-color: rgb(255, 255, 255); */
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid; */
+  border-radius: 9px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  border-radius: 9px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  font-weight: bolder;
+  
+}
+
+button:hover{
+  color: rgb(234, 214, 253);
+  background: rgb(71, 6, 6);
+}
+.contents
+{
+  background-color: rgba(193, 193, 230, 0.47);
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

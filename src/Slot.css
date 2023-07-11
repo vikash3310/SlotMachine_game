@@ -1,0 +1,68 @@
+.displaybox
+{
+    border: 2px double grey;
+    padding: 10%;
+    background-color:rgb(255, 167, 167) ;
+    box-shadow: 0px 0px 63px 21px;
+    border-radius: 72px;
+    width: 50%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    transition: width 2s, height 4s;
+
+    
+}
+.displaybox:hover
+{
+   background-color: rgb(235, 222, 247);
+}
+.parent
+{
+    width: 26vw;
+    height: 62vh;
+    box-sizing: border-box;
+  
+}
+.displaybox span
+{
+    font-size:5rem;
+    /* box-sizing: border-box; */
+    font-weight: 900;
+    
+}
+.emojis
+{
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    border-radius:8px ;
+    
+}
+.result
+{
+    font-size:5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(246, 0, 74);
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+background-color: rgb(255, 131, 131);
+font-size:5rem;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 0px 46px 46px 0px
+
+}
+@media (max-width: "1200px")
+{
+    .result
+{
+    font-size:3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(246, 0, 74);
+    display: flex;
+    justify-content: center;
+    
+}}

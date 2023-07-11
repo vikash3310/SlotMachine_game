@@ -1,0 +1,23 @@
+div
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+div span
+{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
